@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivo Slider Customization</title>
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/light.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/bar.css">
+    <link rel="stylesheet" href="assets/css/nivo-slider.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="slider-wrapper theme-bar">
+        <div id="slider" class="nivoSlider">
+            <img src="assets/img/slider1.jpg" data-thumb="assets/img/slider1.jpg" alt="">
+            <img src="assets/img/slider2.jpg" data-thumb="assets/img/slider2.jpg" alt="">
+            <img src="assets/img/slider3.jpg" data-thumb="assets/img/slider3.jpg" alt="">
+        </div>
+
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-1.9.0.min.js"></script>
+    <script src="assets/js/jquery.nivo.slider.js"></script>
+    <script>
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body>
+</html>
